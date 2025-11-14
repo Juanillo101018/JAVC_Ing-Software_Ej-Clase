@@ -4,19 +4,21 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    background-color:rgb(242, 226, 146);
-    
+    background-color:rgb(205, 255, 204);
+    margin: 30px;
+    padding: 5px 5px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 #nav li{
     margin: 5px;
     padding: 10px 15px;
-
+    border: 1px solid rgb(0, 0, 0);
 }
 
 
 #nav li:hover{
-    background-color: rgb(255, 238, 143);
+    background-color: rgb(88, 255, 136);
 }
 
 #nav a{
@@ -63,6 +65,32 @@
     background-color: rgb(23, 38, 59);
 }
 
+/* Ejemplos de Eventos */
+#cielo2{
+    background-color: rgb(45, 97, 139);
+    padding: 30px;
+    color: #fbffe7;
+}
+
+#eventos{
+    background-color: rgb(45, 97, 139);
+    color: black;
+    padding: 30px;
+    color: #fbffe7;
+}
+
+#btnAgregarEmoji{
+    background-color: #d0ff97;
+}
+
+#btnEstrella2{
+    background-color: #d0ff97;
+}
+
+#btnPlaneta{
+    background-color: #d0ff97;
+}
+
 /* imagenes de productos */
 .card img {
     width: 100%;
@@ -102,7 +130,7 @@
 }
 
 /* concurrencia */
-pre{
+#output{
     text-align: left;
     background-color: rgb(0, 0, 0);
     padding: 1rem;
@@ -122,4 +150,8 @@ pre{
 #mensaje{
     font-weight: bold;
     color: #ff9d9d;
+}
+
+#index{
+    background-color: #e8ffcb;
 }
